@@ -7,14 +7,15 @@ import Navigation from "./components/Navigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Free JSON & CSV Tools - Format, Validate, Convert Online | DevExp",
+  title: "DevExp Tools - Free Online Developer Tools",
   description:
-    "Free online developer tools: JSON formatter, validator, CSV to JSON converter. Fast, secure, and easy to use. No signup required.",
+    "Free online developer tools: JSON formatter, CSV to JSON converter, Base64 encoder/decoder. Fast, secure, no signup required.",
   keywords:
-    "json formatter, json validator, csv to json, json converter, format json online, csv converter",
+    "developer tools, json formatter, csv converter, base64 encoder, online tools",
   openGraph: {
-    title: "Free JSON & CSV Tools Online",
-    description: "Format JSON, convert CSV to JSON, and more developer tools.",
+    title: "DevExp Tools - Free Developer Tools",
+    description:
+      "Professional developer tools for JSON, CSV, Base64, and more.",
     type: "website",
   },
   robots: {
@@ -46,6 +47,33 @@ gtag('config', 'G-CRGL21CS6T');`}
       <body className={inter.className}>
         <Navigation />
         {children}
+
+        {/* Global Footer */}
+        <footer className="footer">
+          <div className="container">
+            <p>
+              Made with ❤️ for developers |{" "}
+              <a href="/" className="footer-link">
+                Home
+              </a>{" "}
+              |{" "}
+              <a href="/json-formatter" className="footer-link">
+                JSON Formatter
+              </a>{" "}
+              |{" "}
+              <a href="/csv-to-json" className="footer-link">
+                CSV to JSON
+              </a>{" "}
+              |{" "}
+              <a href="/base64" className="footer-link">
+                Base64
+              </a>
+            </p>
+            <p className="footer-small">
+              © 2025 DevExp Tools. All processing happens in your browser.
+            </p>
+          </div>
+        </footer>
       </body>
     </html>
   );

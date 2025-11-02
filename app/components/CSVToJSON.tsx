@@ -182,14 +182,6 @@ export default function CSVToJSON() {
           <span>🗑️</span> Clear
         </button>
         <div className="toolbar-spacer" />
-        {/* <a
-          href="https://www.buymeacoffee.com/yourname"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn coffee-btn"
-        >
-          ☕ Buy me a coffee
-        </a> */}
       </div>
 
       <div className="editor-container">

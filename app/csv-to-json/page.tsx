@@ -224,23 +224,6 @@ export default function CSVToJSONPage() {
             </div>
           </div>
         </div>
-
-        <footer className="footer">
-          <p>
-            Made with ❤️ for developers
-            {/* |{" "}
-            <a href="/" className="footer-link">
-              JSON Formatter
-            </a>{" "}
-            |{" "}
-            <a href="/csv-to-json" className="footer-link">
-              CSV to JSON
-            </a> */}
-          </p>
-          <p className="footer-small">
-            © 2025 DevExp Tools. All processing happens in your browser.
-          </p>
-        </footer>
       </div>
     </div>
   );

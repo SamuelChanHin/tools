@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://json-format.devexp.cc/sitemap.xml
