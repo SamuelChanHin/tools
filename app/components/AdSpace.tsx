@@ -16,7 +16,7 @@ export default function AdSpace() {
         className="adsbygoogle"
         style={{ display: "block" }}
         data-ad-client="ca-pub-1172328961679404"
-        data-ad-slot="7209901059"
+        data-ad-slot="6867529399"
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
