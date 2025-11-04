@@ -9,6 +9,8 @@ const tools = [
   { name: "JSON Formatter", path: "/json-formatter" },
   { name: "CSV to JSON", path: "/csv-to-json" },
   { name: "Base64", path: "/base64" },
+  { name: "About", path: "/about" }, // NEW
+  { name: "Contact", path: "/contact" }, // NEW
 ];
 
 export default function Navigation() {
@@ -30,7 +32,7 @@ export default function Navigation() {
           {isOpen ? "✕" : "☰"}
         </button>
 
-        <div className={`nav-links ${isOpen ? "open" : ""}`}>
+        <div className={`nav-links ${isOpen ? "nav-links-open" : ""}`}>
           {tools.map((tool) => (
             <Link
               key={tool.path}

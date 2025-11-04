@@ -67,6 +67,14 @@ gtag('config', 'G-CRGL21CS6T');`}
               |{" "}
               <a href="/base64" className="footer-link">
                 Base64
+              </a>{" "}
+              |{" "}
+              <a href="/about" className="footer-link">
+                About
+              </a>{" "}
+              |{" "}
+              <a href="/contact" className="footer-link">
+                Contact
               </a>
             </p>
             <p className="footer-small">
