@@ -3,9 +3,9 @@ import AdSpace from "../components/AdSpace";
 import CSVToJSON from "../components/CSVToJSON";
 
 export const metadata: Metadata = {
-  title: "Free CSV to JSON Converter Online | Convert CSV to JSON Instantly",
+  title: "CSV to JSON Converter – Free Online Tool",
   description:
-    "Convert CSV files to JSON format instantly. Free online CSV to JSON converter with preview, validation, and download. Supports custom delimiters and headers.",
+    "Convert CSV files to JSON easily with our free online CSV to JSON converter. Fast & secure.",
   keywords:
     "csv to json, csv converter, convert csv to json online, csv to json converter, csv parser, json converter",
   openGraph: {

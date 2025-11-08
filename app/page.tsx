@@ -2,10 +2,9 @@ import type { Metadata } from "next";
 import ToolCard from "./components/ToolCard";
 
 export const metadata: Metadata = {
-  title:
-    "DevExp Tools - Free Online Developer Tools | JSON, CSV, Base64 Converters",
+  title: "DevExp Tools – Free Developer Tools Online",
   description:
-    "Free online developer tools: JSON formatter, CSV to JSON converter, Base64 encoder/decoder, and more. Fast, secure, no signup required.",
+    "Discover fast, free, privacy-first developer tools including JSON formatter, CSV to JSON, & more.",
   keywords:
     "developer tools, json formatter, csv converter, base64 encoder, online tools, free tools",
   openGraph: {

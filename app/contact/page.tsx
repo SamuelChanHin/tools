@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact DevExp Tools - Feedback, Support & Suggestions",
+  title: "Contact DevExp Tools – Feedback & Support",
   description:
-    "Contact DevExp Tools for feedback, bug reports, feature requests, or general inquiries. We value your input and respond to all messages.",
+    "Contact DevExp Tools for feedback, support, or business inquiries. We value your input.",
   keywords: "contact devexp, support, feedback, bug report, feature request",
 };
 

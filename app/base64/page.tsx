@@ -3,9 +3,9 @@ import AdSpace from "../components/AdSpace";
 import Base64Tool from "../components/Base64Tool";
 
 export const metadata: Metadata = {
-  title: "Free Base64 Encoder & Decoder Online | Encode Decode Base64 Text",
+  title: "Base64 Encoder & Decoder – Free Developer Tool",
   description:
-    "Free online Base64 encoder and decoder. Encode text to Base64 or decode Base64 to text instantly. Supports file upload and download. No signup required.",
+    "Encode and decode Base64 data instantly with our free, easy-to-use Base64 encoder & decoder.",
   keywords:
     "base64 encode, base64 decode, base64 encoder, base64 decoder, encode base64 online, decode base64 online, base64 converter",
   openGraph: {

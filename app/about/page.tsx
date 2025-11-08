@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About DevExp Tools - Free Developer Tools & Converters",
+  title: "About DevExp Tools – Developer Productivity Suite",
   description:
-    "Learn about DevExp Tools, our mission to provide free, privacy-first developer tools for JSON formatting, CSV conversion, Base64 encoding, and more.",
+    "Learn about DevExp Tools and our mission to provide free, privacy-first developer utilities.",
   keywords: "about devexp, developer tools, free tools, online converters",
 };
 

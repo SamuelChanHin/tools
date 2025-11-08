@@ -3,9 +3,9 @@ import JSONFormatter from "../components/JSONFormatter";
 import AdSpace from "../components/AdSpace";
 
 export const metadata: Metadata = {
-  title: "Free JSON Formatter, Validator & Beautifier Online | Format JSON",
+  title: "JSON Formatter & Validator – DevExp Tools",
   description:
-    "Free online JSON formatter and validator. Format, beautify, validate, and minify JSON data instantly. Tree view, syntax highlighting, dark mode. No signup required.",
+    "Format, validate, and beautify JSON instantly. No signup required. Privacy-first and free tool.",
   keywords:
     "json formatter, json validator, json beautifier, json minify, format json online, validate json",
   openGraph: {
