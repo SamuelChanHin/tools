@@ -38,6 +38,13 @@ const tools = [
     href: "/base64",
     tags: ["Base64", "Encoder", "Decoder"],
   },
+  {
+    title: "URL Encoder & Decoder",
+    description: "Encode or decode URLs easily with our free online tool.",
+    icon: "🌐",
+    href: "/url-encoder-decoder",
+    tags: ["URL", "Encoder", "Decoder"],
+  },
 ];
 
 export default function HomePage() {

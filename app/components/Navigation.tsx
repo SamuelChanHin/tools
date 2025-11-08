@@ -9,6 +9,7 @@ const tools = [
   { name: "JSON Formatter", path: "/json-formatter" },
   { name: "CSV to JSON", path: "/csv-to-json" },
   { name: "Base64", path: "/base64" },
+  { name: "URL Encoder/Decoder", path: "/url-encoder-decoder" }, // NEW
   { name: "About", path: "/about" }, // NEW
   { name: "Contact", path: "/contact" }, // NEW
 ];
