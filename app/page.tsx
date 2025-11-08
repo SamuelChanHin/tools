@@ -15,6 +15,31 @@ export const metadata: Metadata = {
   },
 };
 
+const tools = [
+  {
+    title: "JSON Formatter & Validator",
+    description: "Format, validate, beautify JSON data instantly.",
+    icon: "🔧",
+    href: "/json-formatter",
+    tags: ["JSON", "Formatter", "Validator"],
+  },
+  {
+    title: "CSV to JSON",
+    description:
+      "Convert CSV files to JSON format with custom delimiters and header support.",
+    icon: "📊",
+    href: "/csv-to-json",
+    tags: ["CSV", "JSON", "Converter"],
+  },
+  {
+    title: "Base64 Encoder & Decoder",
+    description: "Encode and decode Base64 data seamlessly.",
+    icon: "🔐",
+    href: "/base64",
+    tags: ["Base64", "Encoder", "Decoder"],
+  },
+];
+
 export default function HomePage() {
   return (
     <div className="min-h-screen">
@@ -28,38 +53,16 @@ export default function HomePage() {
         </header>
 
         <div className="tools-grid">
-          <ToolCard
-            title="JSON Formatter"
-            description="Format, validate, beautify, and minify JSON data instantly with syntax highlighting."
-            icon="📝"
-            href="/json-formatter"
-            tags={["JSON", "Formatter", "Validator"]}
-          />
-
-          <ToolCard
-            title="CSV to JSON"
-            description="Convert CSV files to JSON format with custom delimiters and header support."
-            icon="📊"
-            href="/csv-to-json"
-            tags={["CSV", "JSON", "Converter"]}
-          />
-
-          <ToolCard
-            title="Base64 Encoder"
-            description="Encode text to Base64 or decode Base64 strings with file upload support."
-            icon="🔐"
-            href="/base64"
-            tags={["Base64", "Encoder", "Decoder"]}
-          />
-
-          {/* Add more tools as you build them */}
-          {/* <ToolCard
-            title="URL Encoder"
-            description="Encode and decode URLs for safe transmission"
-            icon="🔗"
-            href="/url-encoder"
-            tags={['URL', 'Encoder', 'Decoder']}
-          /> */}
+          {tools.map((tool) => (
+            <ToolCard
+              key={tool.title}
+              title={tool.title}
+              description={tool.description}
+              icon={tool.icon}
+              href={tool.href}
+              tags={tool.tags}
+            />
+          ))}
         </div>
 
         <section className="content-section">
